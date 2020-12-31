@@ -8,11 +8,11 @@ trigger: none
 pr: none
 
 variables:
-  ManagementGroupId: <yourManagementGroupId>
+  ManagementGroupId: a2ebc691-c318-4ec2-998a-a87c528378e0
   GitDir: /home/vsts/wiki
   OutputPath: /home/vsts/wiki/wikiRepo
   CsvDelimiter: ;
-  Repository: wikiRepo
+  Repository: https://github.com/tulpy/Azure-MG-Sub-Governance-Reporting
   AzGovVizScriptFolder: pwsh
   AzGovVizScript: AzGovViz.ps1
 
